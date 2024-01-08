@@ -1,0 +1,11 @@
+ANGULAR
+
+<button (click)="handleClick()">Click</button>
+
+{{myForm.getRawValue()|json}}
+
+<form [formGroup]="myForm">
+    <input type="text" formControlName="name" placeholder="Name">
+    <input type="text" formControlName="token" placeholder="Token">
+    <button type="submit">Submit</button>
+  </form>

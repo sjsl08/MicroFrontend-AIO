@@ -1,0 +1,13 @@
+{
+  "imports": {
+    "@app/root-config": "//localhost:9000/app-root-config.js",
+    "react": "https://cdn.jsdelivr.net/npm/react@17.0.2/umd/react.production.min.js",
+    "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@17.0.2/umd/react-dom.production.min.js",
+    "@react/react-app":"http://localhost:8000/react-react-app.js",
+    "angular-app":"http://localhost:8001/main.js",
+    "@app/nav-app":"http://localhost:8002/app-nav-app.js",
+    "@app/vue-app":"http://localhost:8004/js/app.js",
+    "@app/utils": "//localhost:8005/app-utils.js",
+    "@app/force-graph-react":"http://localhost:8007/app-force-graph-react.js"
+  }
+}
